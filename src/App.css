@@ -2,9 +2,53 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+}
+.base {
   background: #141519;
+  padding: 40vh 0;
+  display: flex;
+  justify-content: center;
 }
 
-div{
-    color: red;
+.base_card {
+  background: #1d242e;
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 30px;
+  display: grid;
+  gap: 10px;
+}
+
+.avatar_card {
+  padding: 15px;
+  border-radius: 100%;
+  background: #22303a;
+}
+
+.title_card {
+  color: white;
+}
+
+.paraf_card {
+  color: white;
+}
+.card_button {
+  height: 50px;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-around;
+  /* gap: 50px; */
+}
+
+.font_button {
+  border-radius: 100%;
+  padding: 20px 20px;
+  text-align: center;
+  border: none;
+  background: #262f37;
+  color: #707881;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
 }
